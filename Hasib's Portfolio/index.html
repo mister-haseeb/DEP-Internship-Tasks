@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasib's Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="logo"><span>H</span>asib's <span>P</span>ortfolio</div>
+        <div class="menu">
+            <div class="bar" onclick="showmenuSection()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="items">
+                <li><a class="menu-item" href="#home">Home</a></li>
+                <li><a class="menu-item" href="#about">About</a></li>
+                <li><a class="menu-item" href="#services">Services</a></li>
+                <li><a class="menu-item" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>M. Haseeb Ahmad</h1>
+            <h3>And I'm a <span class="post">Web Developer</span></h3>
+            <div class="media-icon">
+                <a href="https://facebook.com/itz.rajpoot.5686" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/mister-haseeb" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/muhammad-haseeb-ahmad-188417304/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>    
+            </div>
+            <a href="data/Resume.pdf" class="cv-button" download>Download Cv</a>
+        </div>
+        <img class="home-img" src="data/img1.png" alt="">
+    </section>
+    <section class="about" id="about">
+        <div id="about-section">
+            <img class="about-img" src="data/img.png" alt="">
+            <div class="about-container">
+                <h2>About <span class="post">Me</span></h2>
+                <p>Hello! My name is M. Haseeb Ahmad. <br>
+                I am currently pursuing a Bachelor's degree 
+                in Computer Science.<br> I have a strong 
+                passion for web development and have completed 
+                <br> multiple internships where I honed my skills 
+                in creating dynamic <br> and responsive websites.
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2>My <span class="post">Services</span></h2>
+        <div class="services-container">
+            <div>
+                <div class="service">
+                <i class="fa-solid fa-code service-icon"></i>
+                <h3>Web Development</h3>
+                <p>I create dynamic and responsive websites using HTML,
+                 CSS, and JavaScript, ensuring an engaging and user-friendly 
+                 experience tailored to meet your business needs.</p>
+            </div>
+            </div>
+            
+            <div class="service">
+                <i class="fa-solid fa-paint-brush service-icon"></i>
+                <h3>Logo Designing</h3>
+                <p>I design unique, professional logos that capture the 
+                essence of your brand, enhancing your visual identity 
+                and making a lasting impression.</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-laptop-code service-icon"></i>
+                <h3>Java Programming</h3>
+                <p>I develop robust and efficient applications using Java, 
+                focusing on high performance, scalability, and clean code 
+                to solve complex problems.</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contact <span class="post">Me</span></h2>
+        <div class="inputbox">
+            <div action="" class="input">
+                <input type="text" class="firstname" placeholder="First Name">
+                <input type="text" class="lastname" placeholder="Last Name">
+            <div class="input">
+                <input type="email" class="email" placeholder="Email">
+                <input type="number" class="mobile" placeholder="Mobile">
+            </div>
+            </div>
+            <textarea name="" rows="10" cols="30" id="msg-box" placeholder="Your Message"></textarea>
+            <button class="submit-message" >Submit</button>
+        </div>
+            
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
