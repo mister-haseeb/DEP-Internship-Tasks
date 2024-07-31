@@ -1,0 +1,85 @@
+/* Styling for items in men category */
+.body{
+    background: linear-gradient(to bottom, #929373, white);
+    font-family: "poppins";
+}
+.info{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h2{
+    color: #141d14;
+}
+.product-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.person-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+   
+}
+.person-items:hover{
+    cursor: pointer;
+    transform: scale(1.06);
+    transition: 0.6s;
+}
+
+.person-items img {
+    width: 300px;
+    height: 350px;
+}
+
+.person-items p {
+    margin: 6px 0px;
+}
+
+.item-price {
+    display: flex;
+    gap: 20px;
+}
+
+.new-price {
+    color: #141d14;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.old-price {
+    color: #929373;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.men-items:hover {
+    transform: scale(1.05);
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .product-list{
+        flex-direction: column;
+    }
+    .person-items {
+        width: 350px;
+    }
+    .person-items img {
+        width: 350px;
+        height: 400px;
+    }
+}
