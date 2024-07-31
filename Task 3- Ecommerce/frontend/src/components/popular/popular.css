@@ -1,0 +1,36 @@
+.popular {
+    padding: 20px;
+  }
+  
+  .popular h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .popular-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .popular-item {
+    width: 23%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .popular-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: red;
+  }
+  
+  .new-price {
+    font-weight: bold;
+    color: green;
+  }
+  
