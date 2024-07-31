@@ -1,0 +1,40 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #f5f5f5;
+  }
+  
+  .left {
+    max-width: 50%;
+  }
+  
+  .left h1, .left h2 {
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .left button {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .left button img {
+    margin-left: 10px;
+  }
+  
+  .right {
+    max-width: 50%;
+  }
+  
+  .right-img {
+    width: 100%;
+  }
+  
